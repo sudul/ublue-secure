@@ -16,7 +16,7 @@ modules:
       - disablecups.sh
       - removecinnamonxsessions.sh
       # - disableuserns.sh
-      - flathubsetup.sh
+      # - flathubsetup.sh
 
   - type: files
     files:
