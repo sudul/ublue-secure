@@ -36,6 +36,8 @@ modules:
       - setroubleshoot
       - vim
       - solaar
+
+  - type: rpm-ostree
     remove:
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
@@ -44,6 +46,9 @@ modules:
       - gnome-tour
       - yelp
       - gnome-user-share
+
+  - type: rpm-ostree
+    remove:
       - mod_lua
       - httpd
       - httpd-core
@@ -54,6 +59,9 @@ modules:
       - malcontent-ui-libs
       - malcontent-control
       - openssh-server
+
+  - type: rpm-ostree
+    remove:
       - fedora-flathub-remote
       - open-vm-tools
       - open-vm-tools-desktop
