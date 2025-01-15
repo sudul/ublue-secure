@@ -36,6 +36,7 @@ modules:
       - setroubleshoot
       - vim
       - solaar
+      - webkit2gtk4.0
 
   - type: rpm-ostree
     remove:
